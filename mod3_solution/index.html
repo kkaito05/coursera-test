@@ -1,32 +1,66 @@
 <!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Assignment Solution for Module 2</title>
-  <link rel="stylesheet" href="css/mod2.css">
-</head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment Solution for Module 3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mod3.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
 <body>
-    <h1> Our Menu</h1>
-    <div class="row"></div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <section class="Chicken">
-                <h2>Chicken</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quia sit maiores delectus temporibus perspiciatis culpa facilis voluptas dolor deserunt, odio sed? Nemo asperiores cumque, natus ad nisi ducimus sint.</p>
-            </section>
+  <header>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Food, LLC</a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="hidden-lg hidden-md hidden-sm"><a href="#">Chicken <span class="sr-only">(current)</span></a></li>
+              <li class="hidden-lg hidden-md hidden-sm"><a href="#">Beef</a></li>
+              <li class="hidden-lg hidden-md hidden-sm"><a href="#">Sushi</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+  </header>
+
+  <p class="text-center">Our Menu</p>
+
+<div id="main-content" class="container">
+
+    <div id="home-tiles" class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="text-center"id="Chicken">
+            <span>Chicken</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, architecto dolorem 
+                odio maxime accusamus voluptatum quas quam eaque aut minus perspiciatis consequuntur 
+                dignissimos voluptas nostrum laudantium ratione tenetur facere quae.
+            </p>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <section class="Beef">
-                <h2>Beef</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quia sit maiores delectus temporibus perspiciatis culpa facilis voluptas dolor deserunt, odio sed? Nemo asperiores cumque, natus ad nisi ducimus sint.</p>
-            </section>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12">
-            <section class="Sushi">
-                <h2>Sushi</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quia sit maiores delectus temporibus perspiciatis culpa facilis voluptas dolor deserunt, odio sed? Nemo asperiores cumque, natus ad nisi ducimus sint.</p>
-            </section>
-        </div>
-    </div>
+    </div><!-- End of #home-tiles -->
+</div><!-- End of #main-content -->
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
 </body>
 </html>
